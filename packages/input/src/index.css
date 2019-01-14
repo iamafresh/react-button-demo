@@ -1,0 +1,37 @@
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 18px;
+	font-weight: 600px;
+	outline: none;
+}
+
+.btn-small {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 18px;
+	font-weight: 600px;
+	outline: none;
+}
+.btn-big {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 18px;
+	font-weight: 600px;
+	outline: none;
+}

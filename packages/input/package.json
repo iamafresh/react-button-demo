@@ -1,0 +1,28 @@
+{
+  "name": "react-input-syi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/es/input.production.min.js",
+  "dependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^1.1.0",
+    "rollup-plugin-babel": "^4.2.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-size-snapshot": "^0.7.0",
+    "rollup-plugin-terser": "^4.0.2",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cross-env NODE_ENV=production && rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "author": "syi",
+  "license": "MIT"
+}
